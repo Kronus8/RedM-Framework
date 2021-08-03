@@ -1,0 +1,8 @@
+F:\Repositorys\New\RedM-Framework\RedMFramework\RPClient\bin\Debug\RPClient.dll
+F:\Repositorys\New\RedM-Framework\RedMFramework\RPClient\bin\Debug\RPClient.pdb
+F:\Repositorys\New\RedM-Framework\RedMFramework\RPClient\obj\Debug\RPClient.csprojAssemblyReference.cache
+F:\Repositorys\New\RedM-Framework\RedMFramework\RPClient\obj\Debug\RPClient.csproj.CoreCompileInputs.cache
+F:\Repositorys\New\RedM-Framework\RedMFramework\RPClient\obj\Debug\RPClient.dll
+F:\Repositorys\New\RedM-Framework\RedMFramework\RPClient\obj\Debug\RPClient.pdb
+F:\Repositorys\New\RedM-Framework\RedMFramework\RPClient\bin\Debug\CitizenFX.Core.dll
+F:\Repositorys\New\RedM-Framework\RedMFramework\RPClient\obj\Debug\RPClient.csproj.CopyComplete
