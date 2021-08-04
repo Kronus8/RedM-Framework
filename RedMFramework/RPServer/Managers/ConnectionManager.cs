@@ -6,7 +6,7 @@ namespace RPServer.Managers
 {
     public class ConnectionManager : BaseScript
     {
-        private UserManager user = new UserManager();
+        private UserManager user = new UserManager(); 
 
         public ConnectionManager() { }
 
