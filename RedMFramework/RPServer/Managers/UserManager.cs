@@ -23,8 +23,7 @@ namespace RPServer.Managers
         public void CreateUser(Player player) => MySQL.Insert("users", new UserData
         {
             License = GetUserLicense(player),
-            Name = GetUserName(player),
-            Group = "User",
+            Name = player.Name,
             PermissionLevel = 0,
             Banned = 0
         });

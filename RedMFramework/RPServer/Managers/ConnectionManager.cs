@@ -11,7 +11,7 @@ namespace RPServer.Managers
 {
     public class ConnectionManager : BaseScript
     {
-        private UserManager user;
+        private UserManager user = new UserManager();
 
         public ConnectionManager()
         {
@@ -22,20 +22,30 @@ namespace RPServer.Managers
         private async void OnPlayerConnecting([FromSource] Player player, string playerName, dynamic setKickReason, dynamic deferrals)
         {
             deferrals.defer();
+
             await Delay(0);
-            Debug.WriteLine("Player {0} is connecting and their license is {1}", playerName, GetUserLicense(player));
 
             if (!user.DoesUserExist(player))
             {
                 await Delay(0);
-                Debug.WriteLine("User does not exist");
                 user.CreateUser(player);
                 return;
             }
-            else 
+            else
             {
+                var userData = user.Get(player);
                 await Delay(0);
-                deferrals.done();
+
+                if (userData.Banned == 1)
+                {
+                    await Delay(0);
+                    deferrals.done("Banned!");
+                    return;
+                }
+                else
+                {
+                    deferrals.done();
+                }
             }
         }
 
