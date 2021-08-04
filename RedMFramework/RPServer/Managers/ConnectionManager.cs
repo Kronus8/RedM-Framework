@@ -28,6 +28,7 @@ namespace RPServer.Managers
             if (!user.DoesUserExist(player))
             {
                 await Delay(0);
+                Debug.WriteLine("User does not exist");
                 user.CreateUser(player);
                 return;
             }

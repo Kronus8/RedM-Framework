@@ -8,7 +8,7 @@ F:\Repositorys\New\RedM-Framework\RedMFramework\RPServer\obj\Debug\RPServer.net.
 F:\Repositorys\New\RedM-Framework\RedMFramework\RPServer\obj\Debug\RPServer.net.pdb
 F:\Repositorys\New\RedM-Framework\RedMFramework\RPServer\bin\Debug\MySql.Data.dll
 F:\Repositorys\New\RedM-Framework\RedMFramework\RPServer\bin\Debug\Newtonsoft.Json.dll
-F:\Repositorys\New\RedM-Framework\RedMFramework\RPServer\bin\Debug\RPShared.dll
-F:\Repositorys\New\RedM-Framework\RedMFramework\RPServer\bin\Debug\RPShared.pdb
 F:\Repositorys\New\RedM-Framework\RedMFramework\RPServer\bin\Debug\Newtonsoft.Json.pdb
 F:\Repositorys\New\RedM-Framework\RedMFramework\RPServer\bin\Debug\Newtonsoft.Json.xml
+F:\Repositorys\New\RedM-Framework\RedMFramework\RPServer\bin\Debug\RPShared.net.dll
+F:\Repositorys\New\RedM-Framework\RedMFramework\RPServer\bin\Debug\RPShared.net.pdb
