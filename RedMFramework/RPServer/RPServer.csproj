@@ -46,6 +46,7 @@
   <ItemGroup>
     <Compile Include="API\Events.cs" />
     <Compile Include="Managers\ConnectionManager.cs" />
+    <Compile Include="Managers\UserManager.cs" />
     <Compile Include="Server.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
