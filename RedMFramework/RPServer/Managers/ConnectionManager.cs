@@ -19,6 +19,7 @@ namespace RPServer.Managers
         private async void OnPlayerConnecting([FromSource] Player player, string playerName, dynamic setKickReason, dynamic deferrals)
         {
             await Delay(0);
+            Debug.WriteLine("Player {0} is connecting and their license is {1}", playerName, player.Identifiers["license"]);
         }
 
         [EventHandler(Events.ConnectionEvents.OnPlayerDisconnecting)]
