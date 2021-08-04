@@ -12,11 +12,11 @@ namespace RPServer.Database
 
         public static bool IsOpen { get; private set; }
 
-        public static void Connect(string host = "localhost", int port = 3306, string database = "default", string username = "root", string password = "")
+        public static void Connect(string host = "127.0.0.1", int port = 3306, string database = "default", string username = "root", string password = "")
         {
             try
             {
-                connection = new MySqlConnection($"SERVER={host};PORT={port};DATABASE={database};UID={username};PASSWORD={password};");
+                connection = new MySqlConnection($"SERVER={host};PORT={port};DATABASE={database};UID={username};PASSWORD={password};SSLMODE=none;");
                 connection.Open();
 
                 IsOpen = true;

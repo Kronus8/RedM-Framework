@@ -12,7 +12,7 @@ namespace RPServer
     {
         public Server()
         {
-            MySQL.Connect();
+            MySQL.Connect("localhost",3306,"default","root","");
 
             if (MySQL.IsOpen)
             {
