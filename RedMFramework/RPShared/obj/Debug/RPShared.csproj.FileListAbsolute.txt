@@ -1,6 +1,6 @@
 F:\Repositorys\New\RedM-Framework\RedMFramework\RPShared\obj\Debug\RPShared.csprojAssemblyReference.cache
 F:\Repositorys\New\RedM-Framework\RedMFramework\RPShared\obj\Debug\RPShared.csproj.CoreCompileInputs.cache
-F:\Repositorys\New\RedM-Framework\RedMFramework\RPShared\bin\Debug\RPShared.net.dll
-F:\Repositorys\New\RedM-Framework\RedMFramework\RPShared\bin\Debug\RPShared.net.pdb
-F:\Repositorys\New\RedM-Framework\RedMFramework\RPShared\obj\Debug\RPShared.net.dll
-F:\Repositorys\New\RedM-Framework\RedMFramework\RPShared\obj\Debug\RPShared.net.pdb
+F:\Repositorys\New\RedM-Framework\RedMFramework\RPShared\bin\Debug\RPShared.dll
+F:\Repositorys\New\RedM-Framework\RedMFramework\RPShared\bin\Debug\RPShared.pdb
+F:\Repositorys\New\RedM-Framework\RedMFramework\RPShared\obj\Debug\RPShared.dll
+F:\Repositorys\New\RedM-Framework\RedMFramework\RPShared\obj\Debug\RPShared.pdb

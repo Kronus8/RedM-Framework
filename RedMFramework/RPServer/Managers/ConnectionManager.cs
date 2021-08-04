@@ -1,11 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using CitizenFX.Core;
 using RPServer.API;
-using static RPServer.API.SAPI;
 
 namespace RPServer.Managers
 {
@@ -13,10 +8,7 @@ namespace RPServer.Managers
     {
         private UserManager user = new UserManager();
 
-        public ConnectionManager()
-        {
-
-        }
+        public ConnectionManager() { }
 
         [EventHandler(Events.ConnectionEvents.OnPlayerConnecting)]
         private async void OnPlayerConnecting([FromSource] Player player, string playerName, dynamic setKickReason, dynamic deferrals)
@@ -52,7 +44,7 @@ namespace RPServer.Managers
         [EventHandler(Events.ConnectionEvents.OnPlayerDisconnecting)]
         private void OnPlayerDisconnecting([FromSource] Player player, string reason)
         {
-
+            Debug.WriteLine("Player {0} is disconnecting.", player.Name);
         }
     }
 }

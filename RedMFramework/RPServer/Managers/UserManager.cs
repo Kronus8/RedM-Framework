@@ -15,10 +15,7 @@ namespace RPServer.Managers
         public bool DoesUserExist(Player player) => MySQL.Exists($"SELECT * FROM users WHERE License='{GetUserLicense(player)}'");
         public UserData Get(Player player) => MySQL.Select<UserData>($"SELECT * FROM users WHERE License=\"{GetUserLicense(player)}\"");
 
-        public UserManager()
-        {
-            
-        }
+        public UserManager() { }
 
         public void CreateUser(Player player) => MySQL.Insert("users", new UserData
         {
