@@ -1,8 +1,8 @@
-F:\Repositorys\New\RedM-Framework\RedMFramework\RPServer\bin\Debug\RPServer.dll
-F:\Repositorys\New\RedM-Framework\RedMFramework\RPServer\bin\Debug\RPServer.pdb
 F:\Repositorys\New\RedM-Framework\RedMFramework\RPServer\bin\Debug\CitizenFX.Core.dll
 F:\Repositorys\New\RedM-Framework\RedMFramework\RPServer\obj\Debug\RPServer.csprojAssemblyReference.cache
 F:\Repositorys\New\RedM-Framework\RedMFramework\RPServer\obj\Debug\RPServer.csproj.CoreCompileInputs.cache
 F:\Repositorys\New\RedM-Framework\RedMFramework\RPServer\obj\Debug\RPServer.csproj.CopyComplete
-F:\Repositorys\New\RedM-Framework\RedMFramework\RPServer\obj\Debug\RPServer.dll
-F:\Repositorys\New\RedM-Framework\RedMFramework\RPServer\obj\Debug\RPServer.pdb
+F:\Repositorys\New\RedM-Framework\RedMFramework\RPServer\bin\Debug\RPServer.net.dll
+F:\Repositorys\New\RedM-Framework\RedMFramework\RPServer\bin\Debug\RPServer.net.pdb
+F:\Repositorys\New\RedM-Framework\RedMFramework\RPServer\obj\Debug\RPServer.net.dll
+F:\Repositorys\New\RedM-Framework\RedMFramework\RPServer\obj\Debug\RPServer.net.pdb
