@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using CitizenFX.Core;
+using RPServer.Database;
 
 namespace RPServer
 {
@@ -11,7 +12,12 @@ namespace RPServer
     {
         public Server()
         {
+            MySQL.Connect();
 
+            if (MySQL.IsOpen)
+            {
+                Debug.WriteLine("Database Connection Established");
+            }
         }
     }
 }
