@@ -24,6 +24,8 @@ namespace RPServer.Database
             catch (MySqlException ex)
             {
                 IsOpen = false;
+
+                Console.WriteLine("Failed to establish a connection!");
             }
         }
 

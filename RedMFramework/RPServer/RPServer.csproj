@@ -34,6 +34,12 @@
     <Reference Include="CitizenFX.Core">
       <HintPath>..\vendor\cfx\server\CitizenFX.Core.dll</HintPath>
     </Reference>
+    <Reference Include="MySql.Data">
+      <HintPath>..\vendor\libs\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\vendor\libs\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -45,10 +51,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="API\Events.cs" />
+    <Compile Include="API\SAPI.cs" />
+    <Compile Include="Database\MySQL.cs" />
     <Compile Include="Managers\ConnectionManager.cs" />
     <Compile Include="Managers\UserManager.cs" />
     <Compile Include="Server.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RPShared\RPShared.csproj">
+      <Project>{c4b95301-932f-4480-a5df-0d800434696e}</Project>
+      <Name>RPShared</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
