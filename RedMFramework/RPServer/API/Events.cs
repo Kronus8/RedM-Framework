@@ -7,5 +7,10 @@
             public const string OnPlayerConnecting = "playerConnecting";
             public const string OnPlayerDisconnecting = "playerDropped";
         }
+
+        public static class CharacterCreatorEvents
+        {
+            public const string CreateCharacterEvent = "CreateCharacterEvent";
+        }
     }
 }

@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
+
+using CitizenFX.Core;
 
 namespace RPClient.API
 {
@@ -42,6 +45,11 @@ namespace RPClient.API
             public const string OnAddSuggestion = "chat:addSuggestion";
             public const string OnRemoveSuggestion = "chat:removeSuggestion";
             public const string OnClear = "chat:clear";
+        }
+
+        public static class CharacterCreator
+        {
+            public const string CreateCharacterEvent = "CreateCharacterEvent";
         }
     }
 }

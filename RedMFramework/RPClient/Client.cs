@@ -8,5 +8,6 @@ namespace RPClient
 {
     public class Client
     {
+
     }
 }
